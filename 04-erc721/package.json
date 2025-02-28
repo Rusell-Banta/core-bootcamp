@@ -1,7 +1,9 @@
 {
 	"dependencies": {
-		"hardhat": "^2.22.18",
-		"@openzeppelin/contracts": "^5.2.0"
+		"@metamask/providers": "^20.0.0",
+		"@openzeppelin/contracts": "^5.2.0",
+		"dotenv": "^16.4.7",
+		"hardhat": "^2.22.18"
 	},
 	"devDependencies": {
 		"@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
@@ -17,7 +19,7 @@
 		"@types/mocha": ">=9.1.0",
 		"@types/node": ">=18.0.0",
 		"chai": "^4.2.0",
-		"ethers": "^6.4.0",
+		"ethers": "^6.13.5",
 		"hardhat-gas-reporter": "^1.0.8",
 		"solidity-coverage": "^0.8.0",
 		"ts-node": ">=8.0.0",
