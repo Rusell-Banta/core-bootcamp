@@ -23,7 +23,7 @@ describe("SolidityConstructor", function () {
   }
 
   describe("Deployment", function () {
-    it("should call constructor", async function () {
+    it("SOLID!", async function () {
       const { ctcSolidityConstructor } = await loadFixture(deploy);
 
       expect(ctcSolidityConstructor).not.to.be.undefined;
